@@ -44,7 +44,7 @@ const messageEl = document.getElementById('message')!;
 const achievementEl = document.getElementById('achievement')!;
 const weatherEl = document.getElementById('weather')!;
 
-const grassRustleAudio = new Audio('/assets/grass-rustle.mp3');
+const grassRustleAudio = new Audio('/touch-grass/assets/grass-rustle.mp3');
 
 window.addEventListener('load', () => {
   const savedCount = localStorage.getItem('touchCount');
